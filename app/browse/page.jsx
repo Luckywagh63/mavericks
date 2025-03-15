@@ -206,7 +206,7 @@ export default function OutputPage() {
   }, [image]);
 
   return (
-    <div className="bg-black min-h-screen flex flex-col items-center justify-center text-white pt-20">
+    <div className="bg-gradient-to-r from-green-950 to-slate-500 min-h-screen flex flex-col items-center justify-center text-white pt-20">
       <h1 className="text-3xl font-bold mb-4">Crop Analysis Result</h1>
 
      

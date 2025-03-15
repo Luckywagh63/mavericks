@@ -72,9 +72,9 @@ export default function FertilizersPesticides() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-100 ">
       {/* Header */}
-      <header className="bg-green-600 text-white py-6 text-center shadow-lg">
+      <header className="bg-gradient-to-r from-green-950 to-slate-500 text-white py-6 text-center shadow-lg pt-10">
         <div className="mt-16">
           <h1 className="text-3xl font-bold">
             Fertilizers and Pesticides Management
@@ -138,13 +138,6 @@ export default function FertilizersPesticides() {
           </div>
         ))}
       </div>
-
-      {/* Footer */}
-      <footer className="bg-gray-800 text-white py-4 text-center">
-        <p className="text-sm">
-          &copy; 2025 Crop Diagnosis Platform. All rights reserved.
-        </p>
-      </footer>
     </div>
   );
 }

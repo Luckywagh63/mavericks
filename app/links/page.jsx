@@ -9,7 +9,7 @@ export default function CropDiagnosis() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="bg-gray-50 py-16">
+      <div className="bg-gray-50 py-16 pt-32">
         <div className="max-w-7xl mx-auto px-6 sm:px-8">
           <h1 className="text-3xl font-semibold text-center text-gray-900 mb-8">Crop Disease Diagnosis Resources</h1>
 
